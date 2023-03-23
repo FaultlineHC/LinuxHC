@@ -100,7 +100,7 @@ function create_desktop_icon () {
     if [ ! -f "$desktop_path/hc-launcher.desktop" ]; then
         echo \#!/usr/bin/env xdg-open > "$desktop_path/hc-launcher.desktop"
         echo [Desktop Entry] >> "$desktop_path/hc-launcher.desktop"
-        echo Name=HC Launcher >> "$desktop_path/hc-launcher.desktop"
+        echo Name=City of Heroes >> "$desktop_path/hc-launcher.desktop"
         echo Exec="$homecoming_path/hc-launcher.sh" >> "$desktop_path/hc-launcher.desktop"
         echo Icon="$homecoming_path/launcher.ico" >> "$desktop_path/hc-launcher.desktop"
         echo Terminal=false >> "$desktop_path/hc-launcher.desktop"
